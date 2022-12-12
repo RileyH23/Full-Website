@@ -1,0 +1,49 @@
+ /* Importing the Dancing Script font (Regular & Bold) */
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+ /* Basic Style */
+ body{
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+ }
+
+ .container{
+    width: 80%;
+    margin: auto;
+    /* The overflow property determines what to do if content overflows an element's box. Setting overflow to hidden will hide/clip the overflowing content. */
+    overflow: hidden;
+ }
+
+ ul{
+    margin: 0;
+    padding: 0;
+ }
+
+ .btn-1{
+    height: 38px;
+    background-color: #eb4442;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+ }
+
+ .light, .dark{
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+ .light{
+    background-color: #e6e6e6;
+    color: #2b2b3e;
+ }
+
+ .dark{
+    background-color:#2b2b3e ;
+    color: #e6e6e6;
+ }
